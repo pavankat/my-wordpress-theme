@@ -1,5 +1,5 @@
-= TWENTY ELEVEN =
+= Venture Lateral Bootstrap =
 
 * by the WordPress team, http://wordpress.org/
 
-== ABOUT TWENTY ELEVEN ==
+== ABOUT Venture Lateral Bootstrap ==

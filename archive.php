@@ -8,8 +8,8 @@
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage ventureLateralBootstrap
+ * @since Venture Lateral Bootstrap 1.0
  */
 
 get_header(); ?>

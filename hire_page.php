@@ -79,7 +79,7 @@ Template Name: Hire Template
 
 	<div class="row">
 		<div class="span12">
-			<p class="lead">If you have a question on how to get started coding for your start up idea then read this. But if you want me to sit down with you in person and help you one on one then definitely contact me. I'll get your environment set up on your computer, show you the basics of coding, how to insert, select, update, delete from a database using a form. It will cost you, but so would hiring someone to build your start up idea or taking a class, and this would be one on one, on your time. <!--Check out the reviews from my linked in:--></p> 
+			<p class="lead">If you have a question on how to get started coding for your start up idea then <a href="/how-i-learned-to-code-for-my-start-up/" target="_blank">read this</a>. But if you want me to sit down with you in person and help you one on one then definitely contact me. I'll get your environment set up on your computer, show you the basics of coding, how to insert, select, update, delete from a database using a form. It will cost you, but so would hiring someone to build your start up idea or taking a class, and this would be one on one, on your time. <!--Check out the reviews from my linked in:--></p> 
 		</div>
 	</div>
 </div>

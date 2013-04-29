@@ -3,8 +3,8 @@
  * The Sidebar containing the main widget area.
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage ventureLateralBootstrap
+ * @since Venture Lateral Bootstrap 1.0
  */
 
 $options = twentyeleven_get_theme_options();

@@ -1,10 +1,10 @@
 <?php
 /**
- * Twenty Eleven Theme Options
+ * Venture Lateral Bootstrap Theme Options
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage ventureLateralBootstrap
+ * @since Venture Lateral Bootstrap 1.0
  */
 
 /**
@@ -12,7 +12,7 @@
  *
  * This function is attached to the admin_enqueue_scripts action hook.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  *
  */
 function twentyeleven_admin_enqueue_scripts( $hook_suffix ) {
@@ -31,7 +31,7 @@ add_action( 'admin_print_styles-appearance_page_theme_options', 'twentyeleven_ad
  * which is used when the option is saved, to ensure that our option values are complete, properly
  * formatted, and safe.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  */
 function twentyeleven_theme_options_init() {
 
@@ -87,7 +87,7 @@ add_filter( 'option_page_capability_twentyeleven_options', 'twentyeleven_option_
  *
  * This function is attached to the admin_menu action hook.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  */
 function twentyeleven_theme_options_add_page() {
 	$theme_page = add_theme_page(
@@ -107,7 +107,7 @@ add_action( 'admin_menu', 'twentyeleven_theme_options_add_page' );
 
 function twentyeleven_theme_options_help() {
 
-	$help = '<p>' . __( 'Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, Twenty Eleven, provides the following Theme Options:', 'twentyeleven' ) . '</p>' .
+	$help = '<p>' . __( 'Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, Venture Lateral Bootstrap, provides the following Theme Options:', 'twentyeleven' ) . '</p>' .
 			'<ol>' .
 				'<li>' . __( '<strong>Color Scheme</strong>: You can choose a color palette of "Light" (light background with dark text) or "Dark" (dark background with light text) for your site.', 'twentyeleven' ) . '</li>' .
 				'<li>' . __( '<strong>Link Color</strong>: You can choose the color used for text links on your site. You can enter the HTML color or hex code, or you can choose visually by clicking the "Select a Color" button to pick from a color wheel.', 'twentyeleven' ) . '</li>' .
@@ -138,9 +138,9 @@ function twentyeleven_theme_options_help() {
 }
 
 /**
- * Returns an array of color schemes registered for Twenty Eleven.
+ * Returns an array of color schemes registered for Venture Lateral Bootstrap.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  */
 function twentyeleven_color_schemes() {
 	$color_scheme_options = array(
@@ -162,9 +162,9 @@ function twentyeleven_color_schemes() {
 }
 
 /**
- * Returns an array of layout options registered for Twenty Eleven.
+ * Returns an array of layout options registered for Venture Lateral Bootstrap.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  */
 function twentyeleven_layouts() {
 	$layout_options = array(
@@ -189,9 +189,9 @@ function twentyeleven_layouts() {
 }
 
 /**
- * Returns the default options for Twenty Eleven.
+ * Returns the default options for Venture Lateral Bootstrap.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  */
 function twentyeleven_get_default_theme_options() {
 	$default_theme_options = array(
@@ -207,9 +207,9 @@ function twentyeleven_get_default_theme_options() {
 }
 
 /**
- * Returns the default link color for Twenty Eleven, based on color scheme.
+ * Returns the default link color for Venture Lateral Bootstrap, based on color scheme.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  *
  * @param $string $color_scheme Color scheme. Defaults to the active color scheme.
  * @return $string Color.
@@ -228,9 +228,9 @@ function twentyeleven_get_default_link_color( $color_scheme = null ) {
 }
 
 /**
- * Returns the options array for Twenty Eleven.
+ * Returns the options array for Venture Lateral Bootstrap.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  */
 function twentyeleven_get_theme_options() {
 	return get_option( 'twentyeleven_theme_options', twentyeleven_get_default_theme_options() );
@@ -239,7 +239,7 @@ function twentyeleven_get_theme_options() {
 /**
  * Renders the Color Scheme setting field.
  *
- * @since Twenty Eleven 1.3
+ * @since Venture Lateral Bootstrap 1.3
  */
 function twentyeleven_settings_field_color_scheme() {
 	$options = twentyeleven_get_theme_options();
@@ -263,7 +263,7 @@ function twentyeleven_settings_field_color_scheme() {
 /**
  * Renders the Link Color setting field.
  *
- * @since Twenty Eleven 1.3
+ * @since Venture Lateral Bootstrap 1.3
  */
 function twentyeleven_settings_field_link_color() {
 	$options = twentyeleven_get_theme_options();
@@ -280,7 +280,7 @@ function twentyeleven_settings_field_link_color() {
 /**
  * Renders the Layout setting field.
  *
- * @since Twenty Eleven 1.3
+ * @since Venture Lateral Bootstrap 1.3
  */
 function twentyeleven_settings_field_layout() {
 	$options = twentyeleven_get_theme_options();
@@ -300,9 +300,9 @@ function twentyeleven_settings_field_layout() {
 }
 
 /**
- * Returns the options array for Twenty Eleven.
+ * Returns the options array for Venture Lateral Bootstrap.
  *
- * @since Twenty Eleven 1.2
+ * @since Venture Lateral Bootstrap 1.2
  */
 function twentyeleven_theme_options_render_page() {
 	?>
@@ -329,7 +329,7 @@ function twentyeleven_theme_options_render_page() {
  * @see twentyeleven_theme_options_init()
  * @todo set up Reset Options action
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  */
 function twentyeleven_theme_options_validate( $input ) {
 	$output = $defaults = twentyeleven_get_default_theme_options();
@@ -355,7 +355,7 @@ function twentyeleven_theme_options_validate( $input ) {
 /**
  * Enqueue the styles for the current color scheme.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  */
 function twentyeleven_enqueue_color_scheme() {
 	$options = twentyeleven_get_theme_options();
@@ -373,7 +373,7 @@ add_action( 'wp_enqueue_scripts', 'twentyeleven_enqueue_color_scheme' );
  *
  * This function is attached to the wp_head action hook.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  */
 function twentyeleven_print_link_color_style() {
 	$options = twentyeleven_get_theme_options();
@@ -417,9 +417,9 @@ function twentyeleven_print_link_color_style() {
 add_action( 'wp_head', 'twentyeleven_print_link_color_style' );
 
 /**
- * Adds Twenty Eleven layout classes to the array of body classes.
+ * Adds Venture Lateral Bootstrap layout classes to the array of body classes.
  *
- * @since Twenty Eleven 1.0
+ * @since Venture Lateral Bootstrap 1.0
  */
 function twentyeleven_layout_classes( $existing_classes ) {
 	$options = twentyeleven_get_theme_options();
@@ -444,12 +444,12 @@ function twentyeleven_layout_classes( $existing_classes ) {
 add_filter( 'body_class', 'twentyeleven_layout_classes' );
 
 /**
- * Implements Twenty Eleven theme options into Theme Customizer
+ * Implements Venture Lateral Bootstrap theme options into Theme Customizer
  *
  * @param $wp_customize Theme Customizer object
  * @return void
  *
- * @since Twenty Eleven 1.3
+ * @since Venture Lateral Bootstrap 1.3
  */
 function twentyeleven_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport = 'postMessage';
@@ -523,7 +523,7 @@ add_action( 'customize_register', 'twentyeleven_customize_register' );
  * Bind JS handlers to make Theme Customizer preview reload changes asynchronously.
  * Used with blogname and blogdescription.
  *
- * @since Twenty Eleven 1.3
+ * @since Venture Lateral Bootstrap 1.3
  */
 function twentyeleven_customize_preview_js() {
 	wp_enqueue_script( 'twentyeleven-customizer', get_template_directory_uri() . '/inc/theme-customizer.js', array( 'customize-preview' ), '20120523', true );

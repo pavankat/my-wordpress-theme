@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying search forms in Twenty Eleven
+ * The template for displaying search forms in Venture Lateral Bootstrap
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage ventureLateralBootstrap
+ * @since Venture Lateral Bootstrap 1.0
  */
 ?>
 	<form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">

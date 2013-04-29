@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Twenty Eleven 1.5\n"
+"Project-Id-Version: Venture Lateral Bootstrap 1.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/twentyeleven\n"
 "POT-Creation-Date: 2013-01-01 00:19:40+00:00\n"
 "MIME-Version: 1.0\n"
@@ -269,7 +269,7 @@ msgstr ""
 msgid "Featured"
 msgstr ""
 
-#. #-#-#-#-#  twentyeleven.pot (Twenty Eleven 1.5)  #-#-#-#-#
+#. #-#-#-#-#  twentyeleven.pot (Venture Lateral Bootstrap 1.5)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:27
 msgid "http://wordpress.org/"
@@ -454,7 +454,7 @@ msgstr ""
 msgid ""
 "Some themes provide customization options that are grouped together on a "
 "Theme Options screen. If you change themes, options may change or disappear, "
-"as they are theme-specific. Your current theme, Twenty Eleven, provides the "
+"as they are theme-specific. Your current theme, Venture Lateral Bootstrap, provides the "
 "following Theme Options:"
 msgstr ""
 
@@ -547,7 +547,7 @@ msgid ""
 msgstr ""
 
 #: inc/widgets.php:20
-msgid "Twenty Eleven Ephemera"
+msgid "Venture Lateral Bootstrap Ephemera"
 msgstr ""
 
 #: inc/widgets.php:52
@@ -625,7 +625,7 @@ msgid "Tag Archives: %s"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "Twenty Eleven"
+msgid "Venture Lateral Bootstrap"
 msgstr ""
 
 #. Theme URI of the plugin/theme
@@ -637,7 +637,7 @@ msgid ""
 "The 2011 theme for WordPress is sophisticated, lightweight, and adaptable. "
 "Make it yours with a custom menu, header image, and background -- then go "
 "further with available theme options for light or dark color scheme, custom "
-"link colors, and three layout choices. Twenty Eleven comes equipped with a "
+"link colors, and three layout choices. Venture Lateral Bootstrap comes equipped with a "
 "Showcase page template that transforms your front page into a showcase to "
 "show off your best content, widget support galore (sidebar, three footer "
 "areas, and a Showcase page widget area), and a custom \"Ephemera\" widget to "

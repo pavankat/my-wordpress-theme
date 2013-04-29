@@ -1,23 +1,23 @@
 <?php
 /**
- * Makes a custom Widget for displaying Aside, Link, Status, and Quote Posts available with Twenty Eleven
+ * Makes a custom Widget for displaying Aside, Link, Status, and Quote Posts available with Venture Lateral Bootstrap
  *
  * Learn more: http://codex.wordpress.org/Widgets_API#Developing_Widgets
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage ventureLateralBootstrap
+ * @since Venture Lateral Bootstrap 1.0
  */
-class Twenty_Eleven_Ephemera_Widget extends WP_Widget {
+class ventureLateralBootstrap_Ephemera_Widget extends WP_Widget {
 
 	/**
 	 * Constructor
 	 *
 	 * @return void
 	 **/
-	function Twenty_Eleven_Ephemera_Widget() {
+	function ventureLateralBootstrap_Ephemera_Widget() {
 		$widget_ops = array( 'classname' => 'widget_twentyeleven_ephemera', 'description' => __( 'Use this widget to list your recent Aside, Status, Quote, and Link posts', 'twentyeleven' ) );
-		$this->WP_Widget( 'widget_twentyeleven_ephemera', __( 'Twenty Eleven Ephemera', 'twentyeleven' ), $widget_ops );
+		$this->WP_Widget( 'widget_twentyeleven_ephemera', __( 'Venture Lateral Bootstrap Ephemera', 'twentyeleven' ), $widget_ops );
 		$this->alt_option_name = 'widget_twentyeleven_ephemera';
 
 		add_action( 'save_post', array(&$this, 'flush_widget_cache' ) );
