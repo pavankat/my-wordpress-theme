@@ -1,0 +1,235 @@
+/*
+Theme Name: Venture Lateral Bootstrap
+Theme URI: http://venturelateral.com
+Description: A theme customized for www.venturelateral.com.
+Author: Pavan Katepalli
+Author URI: http://venturelateral.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+I used the example Bootstrap theme 
+"Basic marketing site" found on the 
+Bootstrap web site: 
+http://twitter.github.com/bootstrap/examples/hero.html.
+
+*/
+
+@import url('fontawesome/css/font-awesome.min.css');
+@import url('fontawesome/css/font-awesome.css');
+@import url('fontawesome/css/font-awesome-ie7.min.css'); 
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css');
+
+
+
+/* START-> for sticky footer */
+	html, body { 
+		height: 100%;
+	}
+
+	/* Wrapper for page content to push down footer */
+	#wrap {
+	  min-height: 100%;
+	  height: auto !important;
+	  height: 100%;
+	  /* Negative indent footer by it's height */
+	  margin: 0 auto -60px;
+	}
+
+	/* Set the fixed height of the footer here */
+	#push,
+	#footer {
+	  height: 60px;
+	}
+	#footer {
+	  background-color: #1b1b1b;
+	}
+
+/* END-> for sticky footer */
+
+
+/* apply to container div at the end of header.php*/
+#bodyPadding { 
+  padding-top: 60px; 
+}
+
+
+.navbar-inner {
+	padding-top: 25px;
+}
+
+
+#welcomeText {
+	font-size: 81.5px;
+	line-height: 120px;
+}
+
+.center { 
+	float: none; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+.highlight {
+	background: yellow;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.hiddenText {
+	color: white;"
+}
+
+.paddingUp {
+	padding-top: 10px;
+	display: inline-block;
+}
+
+#contact .lead {
+	margin-bottom: 0;
+}
+
+#contact li {
+	list-style-type: none;
+}
+
+#contact ul {
+	margin: 0;
+	padding: 0;
+}
+
+.sameLine {
+	float: left;
+	width: 50%;
+}
+
+.textAreaDimensions {
+	width: 220px;
+	height: 160px;
+}
+
+.marginTop10{
+	margin-top: 10px;
+}
+
+.marginTop20{
+	margin-top: 20px;
+}
+
+.marginTop60 { 
+	margin-top: 60px;
+}
+
+.marginTop500 {
+
+	margin-top: 500px;
+
+}
+
+.marginBottom40{
+	margin-bottom: 40px;
+}
+
+.marginLeft {
+	margin-left: 15px;
+}
+
+.marginRight {
+	padding: 0 5px 0 0px;
+}
+
+.largeDotFont {
+	font-size: 42px;
+	line-height: 14px;
+}
+
+.normalDotFont {
+	font-size: 21px;
+	line-height: 14px;
+}
+
+.largeFont {
+	font-size: 42px;
+	line-height: 68px;
+}
+
+.normalFont {
+	font-size: 21px;
+	line-height: 35px;
+}
+
+.smallFont {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+
+.spaceOutList li {
+	line-height: 35px;
+}
+
+
+/*
+for the case
+studies
+*/
+
+.quotes {
+	padding-left: 50px;
+}
+
+.caseStudyContent {
+	border: 1px solid #eeeeee;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px 20px 20px 20px;
+}
+
+#myCarousel, #myCarouselTwo, #myCarouselThree, #myCarouselFour {
+	width: 450px;
+	float: left; 
+
+	margin-right: 20px; 
+	margin-top: 20px; 
+	margin-bottom: 20px;
+}
+
+.caseStudyCarouselImage {
+	 width: 435px; 
+	 height: 325px;
+}
+
+.img-polaroid {
+	border: 1px solid #eeeeee;
+}
+
+.quotePic {
+	height: 150px; 
+	width: 150px;
+}
+
+blockquote {
+	border: none;
+}
+
+#caseStudies{
+	float: left;
+	line-height: 42px;
+	margin: 0 15px 0 0;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+
+
+
+
