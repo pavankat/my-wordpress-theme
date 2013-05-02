@@ -13,6 +13,9 @@ style-responsive.css
 JS:
 ---------------
 js/slider.js
+js/hire.js
+js/contact.js
+js/hide.js
 
 Template Pages:
 ---------------
