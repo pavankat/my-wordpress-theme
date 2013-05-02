@@ -17,11 +17,11 @@ Template Name: About Template
 
 		<p class="lead">I’ve <a href="what-i-learned-from-past-start-ups/">learned a lot from my ventures</a>. The most important things I learned are coding and building lean products that de-risk assumptions.</p> 
 
-		<p class="lead">After acquiring those valuable skills, I Co-Founded <a href="http://www.inrtracker.com" target="_blank">INRtracker.com</a>. INR Tracker is the definitive solution for individuals taking blood thinners. You can learn a bit more about INR Tracker in the <a href="/index.php#work">My Work</a> section of this website.</p>
+		<p class="lead">After acquiring those valuable skills, I Co-Founded <a href="http://www.inrtracker.com" target="_blank">INRtracker.com</a>. INR Tracker is the definitive solution for individuals taking blood thinners. You can learn a bit more about INR Tracker in the <a href="/index.php#caseStudiesGohere">Case Studies</a> section of this website.</p>
 
 		<h2>Coding</h2>
 
-		<p class="lead">I've been rapidly getting better at coding. I started making websites when I was 12, but I never did anything database driven. It wasn't until I was 23 that I really pushed myself and seriously learned to code. I guess it sometimes takes 11 years for someone to rediscover their passion. At first, learning to code was something I did to cut the costs and time it takes to launch a web venture. However, throughout that process of learning to code, I fell in love with it all. I fell in love with how writing a few lines could make dynamic things happen on the screen. I loved how something could be expressed in multiple ways. How thousands of people could be using what I made and that all the data could be seen visually organized in a database. Coding makes me feel like the owner of my own universe that I invisioned and determined.</p> 
+		<p class="lead">I've been rapidly getting better at coding. I started making websites when I was 12, but I never did anything database driven. It wasn't until I was 23 that I really pushed myself and seriously learned to code. I guess it sometimes takes 11 years for someone to rediscover their passion. At first, learning to code was something I did to cut costs and time for launching a web venture. However, throughout that process of learning to code, I fell in love with it all. I fell in love with how writing a few lines could make dynamic things happen on the screen. I loved how something could be expressed in multiple ways. How thousands of people could be using what I made. I loved how all the data could be seen visually in a database. Coding makes me feel like the owner of my own universe that I invisioned and control.</p> 
 
 		<h2>Comedian</h2>
 
@@ -31,12 +31,12 @@ Template Name: About Template
 
 		<p class="lead">I got my degree in Math and Econ from Rutgers University in 2009. The one relative class that I took to coding was Intro to Computer Science for Math majors, which was pretty much the same as the normal Intro to Computer Science, but we used the programming language MATLAB, instead of JAVA. </p>
 
-		<p class="lead">I took a lot of hard classes in college: Intro to Biomedical Engineering, Theoretical Linear Algebra, Real Analysis, Partial Differential Equations, Linear Optimization and the laundry list could go on. However, <span class="underline">none of them nearly impacted me as much as my Buddhism and Acting classes</span>. I had the most brilliant Professor and Teacher. Their classes changed the way I thought about perceiving the world, what was possible and made all the money that was spent on college totally freaking worth it. <br> <a href="#" id="collegeMore">See more >></a> <a href="#" id="collegeLess" class="lead"><< See less</a></p>   
+		<p class="lead">I took a lot of hard classes in college: Intro to Biomedical Engineering, Theoretical Linear Algebra, Real Analysis, Partial Differential Equations, Linear Optimization and the laundry list could go on. However, <span class="underline">none of them nearly impacted me as much as my Buddhism and Acting classes</span>. I had the most brilliant Professor and Teacher. Their classes changed the way I thought about perceiving the world and what was possible. <br> <a href="#" id="collegeMore">See more >></a> <a href="#" id="collegeLess" class="lead"><< See less</a></p>   
 
 		<span id="collegeMoreView">
 		
 			<p class="lead">
-				I took Buddhism in college thinking it would be more of a history class. I couldn't of been more wrong. This class was a mix of philosophy, science, sociology, religion and history all put together. This class forever changed the way I think about the world, think about myself, think inside my head and react to things. I learned that ignorance is the greatest evil on Earth. And it makes sense. Think of anything evil and ignorance will be at fault. 
+				I took Buddhism in college thinking it would be more of a history class. I couldn't of been more wrong. This class was a mix of philosophy, science, sociology, religion and history all put together. This class forever changed the way I think about the world, think about myself, think inside my head and react to things. I learned that ignorance is the greatest evil on Earth. And it makes sense. Ignorance is the fault of any evil. 
 				<br><br>
 				For example, if a Doctor is ignorant and thinks that all-natural ways do not work, then the mind of that Doctor is completely closed off to possible solutions derived from all-natural ways. This Doctor could be helping more people and could become more of an effective Doctor, by being more open and reducing ignorance. 
 				<br><br>

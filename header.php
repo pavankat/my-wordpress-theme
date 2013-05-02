@@ -41,13 +41,53 @@
         <div class="nav-collapse collapse">
           <ul class="nav">
               
-              <li class="page_item page-item-1 current_page_item"><a href="/index.php"><i class="icon-home marginRight"></i>Home</a></li>
-              <li class="page_item page-item-2 current_page_item"><a href="/blog"><i class="icon-bookmark marginRight"></i>Blog</a></li>
-              <li class="page_item page-item-1 current_page_item"><a href="/index.php#work"><i class="icon-briefcase marginRight"></i>Work</a></li>
-              <li class="page_item page-item-3 current_page_item"><a href="/hire"><i class="icon-star marginRight"></i>Hire</a></li>
-              <li class="page_item page-item-4 current_page_item"><a href="/about"><i class="icon-user marginRight"></i>About</a></li>
-              <li class="page_item page-item-4 current_page_item"><a href="/what-i-learned-from-past-start-ups"><i class="icon-lightbulb marginRight"></i>Start Up Lessons</a></li>
-              <li class="page_item page-item-4 current_page_item"><a href="/wp-content/themes/ventureLateralBootstrap/pavan-katepalli-developer.pdf"><i class="icon-list-alt marginRight"></i>Resume</a></li>
+              <li class="page_item page-item-1 current_page_item"><a href="/index.php">
+
+                <!-- <i class="icon-home marginRight"></i> -->
+
+                Home</a></li>
+              <li class="page_item page-item-2 current_page_item">
+
+                <a href="/blog">
+
+                  <!-- <i class="icon-bookmark marginRight"></i> -->
+
+                  Blog</a></li>
+              <li class="page_item page-item-1 current_page_item">
+
+                <a href="/index.php#caseStudiesGohere">
+
+                  <!-- <i class="icon-briefcase marginRight"></i> -->
+
+                  Case Studies</a></li>
+              <li class="page_item page-item-3 current_page_item">
+
+                <a href="/hire">
+
+                  <!-- <i class="icon-star marginRight"></i> -->
+
+                  Hire</a></li>
+              <li class="page_item page-item-4 current_page_item">
+
+                <a href="/about">
+
+                <!-- <i class="icon-user marginRight"></i> -->
+
+                About</a></li>
+              <li class="page_item page-item-4 current_page_item">
+
+                <a href="/what-i-learned-from-past-start-ups">
+
+                  <!-- <i class="icon-lightbulb marginRight"></i> -->
+
+                  Start Up Lessons</a></li>
+              <li class="page_item page-item-4 current_page_item">
+
+                <a href="/wp-content/themes/ventureLateralBootstrap/pavan-katepalli-developer.pdf">
+
+                  <!-- <i class="icon-list-alt marginRight"></i> -->
+
+                  Resume</a></li>
 
           
           </ul>
@@ -57,11 +97,6 @@
                 <li class="page_item page-item-5 current_page_item"><a href="https://github.com/pavankat" target="_blank"><i class="icon-github-alt"></i></a></li>
                 <li class="page_item page-item-6 current_page_item"><a href="http://www.twitter.com/pavankat" target="_blank"><i class="icon-twitter"></i></a></li>
                 <li class="page_item page-item-7 current_page_item"><a href="http://www.linkedin.com/in/pavankat" target="_blank"><i class=" icon-linkedin-sign"></i></a></li>
-              
-
-              <!-- took out second paramater of the below function
-              , 'exclude' => 4-->
-              <?php //wp_list_pages(array('title_li' => '')); ?>
 
           </ul>
 

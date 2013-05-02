@@ -6,14 +6,17 @@ Template Name: pastStartUps Template
 <?php get_header(); ?>
 
 <div class="row marginTop20">
-
 	<div class="span12">
-
 		<p class="lead">
 			Here I lay out what I did right and what I learned from my past ventures.
 		</p>
+	</div>
+</div>
 
-		<h2>Company Number One: MyFitSolution LLC (MyFitSolution.com - no longer on the net)</h2>
+<div class="row marginTop20">
+	<div class="span9">
+
+		<h2>Company Number One: MyFitSolution.com</h2>
 		
 		<p class="lead">
 		<strong>life span:</strong> October 2008 - July 2011
@@ -34,9 +37,21 @@ Template Name: pastStartUps Template
 		<p class="lead">
 		<strong>What I learned: </strong>I learned to skip the business plan (waste of time), minimize features to the core essentials, hire a US developer over a foreign developer, and be really picky about who I bring on to my team.
 		</p>
+	
+	</div>
+
+	<div class="span3 marginTop60">
+
+		<iframe width="420" height="315" src="http://www.youtube.com/embed/3zldtrDtf0o" frameborder="0" allowfullscreen></iframe>
+
+	</div>
+</div>
 
 
-		<h2>Company Number Two: Andraste Ventures LLC (RockstarVisible.com)</h2>
+<div class="row marginTop20">
+	<div class="span9">
+
+		<h2>Company Number Two: RockstarVisible.com</h2>
 
 		<p class="lead">
 		<strong>life span:</strong><strong> </strong>April 2010 to September 2010
@@ -58,7 +73,41 @@ Template Name: pastStartUps Template
 		<strong>What I learned:</strong> Sign contracts with your clients, charge clients a fair amount for them and you, focus on a niche of clients, don't expand until you're monetarily comfortable.
 		</p>
 
-		<h2>Company Number Three: Andraste Ventures LLC (BloggersCompete.com)</h2>
+	</div>
+
+	<div class="span3 marginTop60">
+
+		<div id="myCarouselFour" class="carousel slide">
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarouselFour" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarouselFour" data-slide-to="1"></li>
+		  </ol>
+
+		  <!-- Carousel items -->
+		  <div class="carousel-inner">
+
+		    <div class="active item"><img
+		      src="/wp-content/themes/ventureLateralBootstrap/images/languagedirections-1.png"
+		      class="caseStudyCarouselImage img-polaroid"></div>
+		    <div class="item"><img
+		      src="/wp-content/themes/ventureLateralBootstrap/images/languagedirections-2.png"
+		      class="caseStudyCarouselImage img-polaroid"></div> 
+
+		  </div>
+		  <!-- Carousel nav -->
+		  <a class="carousel-control left" href="#myCarouselFour" data-slide="prev">&lsaquo;</a>
+		  <a class="carousel-control right" href="#myCarouselFour" data-slide="next">&rsaquo;</a>
+		</div>
+
+	</div>
+
+</div>
+
+
+<div class="row marginTop20">
+	<div class="span9">
+
+		<h2>Company Number Three: BloggersCompete.com</h2>
 
 		<p class="lead">
 		<strong>life span:</strong> April 2010 to October 2011
@@ -85,5 +134,12 @@ Template Name: pastStartUps Template
 		</p>
 
 	</div>
+
+	<div class="span3 marginTop60">
+
+		<iframe width="420" height="315" src="http://www.youtube.com/embed/fYcxGVSerPE" frameborder="0" allowfullscreen></iframe>
+
+	</div>
+
 </div>
 <?php get_footer(); ?>

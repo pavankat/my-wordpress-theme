@@ -1,6 +1,19 @@
 @import url('bootstrap/css/bootstrap-responsive.css');
 
 /* Portrait tablet to landscape and desktop */
+@media (min-width: 980px) and (max-width: 1024px) {
+	/* fixing problem for 
+	ipad based off of 
+	http://ipadpeek.com/ 
+	*/
+
+	#bodyPadding {
+	 padding-top: 95px;
+	}
+
+}
+
+/* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	input, textarea {
 		width: 80%;
@@ -17,6 +30,14 @@
 	.quotePic {
 		height: auto;
 	}
+
+	/* fixing the top padding being too 
+	much for mobile and tablets*/
+	#bodyPadding { 
+	  padding-top: 0px; 
+	}
+
+
 
 }
 
@@ -60,6 +81,12 @@
 
 	.quotePic {
 		height: auto;
+	}
+
+	/* fixing the top padding being too 
+	much for mobile and tablets*/
+	#bodyPadding { 
+	  padding-top: 0px; 
 	}
 
 }

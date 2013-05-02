@@ -31,7 +31,7 @@ clear up style sheet and organize it
     <div class="span12">
       <h1 id="welcomeText" class="text-center" >Hey there! My name is Pavan 
           & I'm a Web Developer.<br> 
-          Check out <a href="#work">my work</a>.</h1>
+          Check out <a href="#caseStudies">my work</a>.</h1>
     </div> 
   </div>
 
@@ -89,12 +89,12 @@ clear up style sheet and organize it
 </div>
 
 
-<a name="work" class="hiddenText">secret code: @7404823</a>
+<a name="caseStudiesGohere" class="hiddenText">secret code: @7404823</a>
 
 
 <div class="row marginTop60">
   <div class="span12">
-    <h1 id="caseStudies">My Work</h1>
+    <h1 id="caseStudies">My Case Studies</h1>
   </div>
 </div>
 
