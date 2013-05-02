@@ -2,6 +2,9 @@
 			<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
 			<script src="/wp-content/themes/ventureLateralBootstrap/bootstrap/js/bootstrap.min.js"></script>
 			<script src="/wp-content/themes/ventureLateralBootstrap/js/slider.js"></script>
+      <script src="/wp-content/themes/ventureLateralBootstrap/js/hide.js"></script>
+      <script src="/wp-content/themes/ventureLateralBootstrap/js/hire.js"></script>
+      <script src="/wp-content/themes/ventureLateralBootstrap/js/contact.js"></script>
 
 			</div> <!-- /container -->
 
