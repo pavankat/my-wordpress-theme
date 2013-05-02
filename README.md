@@ -24,6 +24,10 @@ front-page.php
 
 about_page.php
 
+Core Word Press Files:
+---------------
+index.php
+
 PHP for AJAX function:
 ---------------
 contact_form.php
