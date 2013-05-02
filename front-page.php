@@ -31,7 +31,7 @@ clear up style sheet and organize it
     <div class="span12">
       <h1 id="welcomeText" class="text-center" >Hey there! My name is Pavan 
           & I'm a Web Developer.<br> 
-          Check out <a href="#caseStudies">my work</a>.</h1>
+          Check out <a href="#caseStudiesGohere">my work</a>.</h1>
     </div> 
   </div>
 
