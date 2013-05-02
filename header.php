@@ -25,6 +25,7 @@
     <?php wp_head(); ?>
   </head>
   <body>
+  <?php include_once("analyticstracking.php") ?>
 
   <!-- Part 1: Wrap all page content here -->
   <div id="wrap">
