@@ -13,7 +13,7 @@
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta">
+		<div class="entry-meta lead">
 			<?php twentyeleven_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>

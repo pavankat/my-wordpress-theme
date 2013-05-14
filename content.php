@@ -20,7 +20,7 @@
 			<?php endif; ?>
 
 			<?php if ( 'post' == get_post_type() ) : ?>
-			<div class="entry-meta">
+			<div class="entry-meta lead">
 				<?php twentyeleven_posted_on(); ?>
 			</div><!-- .entry-meta -->
 			<?php endif; ?>
