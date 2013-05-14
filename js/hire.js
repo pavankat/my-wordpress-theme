@@ -24,7 +24,10 @@ $(function() {
     "motivate",
     "trust");
 
-  //on default have the h1 say this:
+  //on default hide this hireSection
+  ($("#" + hireSections[3]).hide());
+
+  //on default hide this hire section
   $('#hireHeading').html($("#" + topNav[0]).html());
 
   //on default have this part 
