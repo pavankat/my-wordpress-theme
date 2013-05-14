@@ -31,7 +31,7 @@ $(function() {
   //of the topNav be highlighted
   $("#" + topNav[0]).addClass('highlight');
 
-  //on default have this subject is set
+  //on default have this subject be set
   $("input[name='subject']").val("build my idea");
 
   /*
