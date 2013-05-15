@@ -312,7 +312,7 @@ Template Name: Hire Template
 		<div class="span12">
 			<p class="lead">Google Analytics doesn't tell you everything. Want to know how many people are clicking on a button, downloading a certain file? Who these people are? What else they do on your site? </p>
 
-			<p class="lead">Ex: If you have a sign up now button that on a page that gets 1000 hits a month but no one clicks on it. That's bad. But it's even worse if you don't even know about it!</p>
+			<p class="lead">Ex: If you have a sign up now button on a page that gets a 1000 hits a month but no one clicks on it - that's bad. But it's worse if you don't know about it!</p>
 		</div>
 	</div>
 </div>
