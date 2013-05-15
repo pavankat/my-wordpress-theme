@@ -25,7 +25,7 @@ $(function() {
     "trust");
 
   //on default hide this hireSection
-  ($("#" + hireSections[3]).hide());
+  $("#" + hireSections[3]).hide();
 
   //on default hide this hire section
   $('#hireHeading').html($("#" + topNav[0]).html());
